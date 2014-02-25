@@ -1,0 +1,44 @@
+{
+   "abstract" : "Ædd Â¸mlâ°Â¸ts tË ÃvÃrËthÃng!",
+   "author" : [
+      "Phil Pollard <bennie@cpan.org>"
+   ],
+   "description" : "A module that helps you Ædd Â¸mlâ°Â¸ts tË ÃvÃrËthÃng!",
+   "dynamic_config" : 1,
+   "generated_by" : "CPAN::Meta version 2.132830",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "version" : 2
+   },
+   "name" : "Acme-Umlautify",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test" : "0"
+         }
+      },
+      "runtime" : {
+         "recommends" : {},
+         "requires" : {
+            "perl" : "5.006"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://rt.cpan.org/Dist/Display.html?Name=Acme-Umlautify"
+      },
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/bennie/perl-Acme-Umlautify.git",
+         "web" : "http://github.com/bennie/perl-Acme-Umlautify"
+      }
+   },
+   "version" : "1.03"
+}

@@ -1,8 +1,9 @@
 Revision history for Perl extension Acme::Umlautify.
 
-1.03  2014/02/25
+1.03  DATETAG
 
 	Corrected miscapitalization of 'ACME' in module meta data
+	Updated to new build script with auto-generated meta data
 
 1.02  2014/02/25
 
