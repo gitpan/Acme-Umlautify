@@ -1,7 +1,7 @@
 --- #YAML:1.0
-name:               Acme-Umlautify
-version:            1.02
-abstract:           Æ’dd Â¸mlâ€°Â¸ts tË† ÃŽvÃŽrË‡thÃ”ng! 
+name:		Acme-Umlautify
+version:	1.03
+abstract:	Ädd ümläüts tö ëvërÿthïng!
 author:
     - Phil Pollard <bennie@cpan.org>
 license:            artistic_2
@@ -25,9 +25,9 @@ no_index:
         - t
         - inc
 provides:
-    ACME::Umlautify:
+    Acme::Umlautify:
         file: lib/Acme/Umlautify.pm
-        version: 1.02
+        version: 1.03
 generated_by:       ExtUtils::MakeMaker version 6.56
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html

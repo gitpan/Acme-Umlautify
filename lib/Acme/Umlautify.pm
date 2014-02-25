@@ -48,7 +48,7 @@ Röck ön!
 
 =head1 VERSION
 
-	Acme::Umlautify v1.02 (2014/02/24)
+	Acme::Umlautify v1.03 (2014/02/25)
 
 =head1 COPYRIGHT
 
