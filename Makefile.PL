@@ -1,11 +1,44 @@
 use ExtUtils::MakeMaker;
-# See lib/ExtUtils/MakeMaker.pm for details of how to influence
-# the contents of the Makefile that is written.
+
 WriteMakefile(
-    'NAME'		=> 'Acme::Umlautify',
-    'VERSION_FROM'	=> 'lib/Acme/Umlautify.pm', # finds $VERSION
-    'PREREQ_PM'		=> {}, # e.g., Module::Name => 1.1
-    ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
-      (ABSTRACT_FROM => 'lib/Acme/Umlautify.pm',
-       AUTHOR     => 'Phil Pollard <bennie@cpan.org>') : ()),
+  ABSTRACT => 'ƒdd ¸ml‰¸ts tˆ ÎvÎrˇthÔng!',
+  AUTHOR   => 'Phil Pollard <bennie@cpan.org>',
+  LICENSE  => 'artistic_2',
+  NAME     => 'Acme::Umlautify',
+  VERSION  => '1.04',
+
+  PREREQ_PM => {
+          'perl' => '5.006',
+          'Test' => '0'
+        }
+,
+
+  ( $ExtUtils::MakeMaker::VERSION < 6.46
+        ? ()
+        : ( META_MERGE => {
+                requires  => {perl => '5.006'},
+                resources => {
+                    # homepage => 'http://FIXME.org',
+                    # license  => 'http://dev.perl.org/licenses/',
+                    # MailingList => 'http://FIXME',
+                    repository => {
+                        type => 'git',
+                        url  => 'git://github.com/bennie/perl-Acme-Umlautify.git',
+                        web  => 'http://github.com/bennie/perl-Acme-Umlautify',
+                    },
+                    bugtracker => {
+                        # mailto => '...',
+                        web => 'https://rt.cpan.org/Dist/Display.html?Name=Acme-Umlautify',
+                    },
+
+                },
+                no_index => {directory => [qw/t/]},
+            },
+            META_ADD => {
+                build_requires     => {},
+                configure_requires => {}
+            },
+        )
+    )
+
 );

@@ -10,18 +10,21 @@
       "artistic_2"
    ],
    "meta-spec" : {
-      "version" : 2
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
    },
    "name" : "Acme-Umlautify",
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test" : "0"
+            "Test" : "0",
+            "perl" : "5.006"
          }
       },
       "runtime" : {
          "recommends" : {},
          "requires" : {
+            "Test" : "0",
             "perl" : "5.006"
          }
       }
@@ -40,5 +43,5 @@
          "web" : "http://github.com/bennie/perl-Acme-Umlautify"
       }
    },
-   "version" : "1.03"
+   "version" : "1.04"
 }

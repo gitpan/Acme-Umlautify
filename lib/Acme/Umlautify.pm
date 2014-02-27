@@ -48,7 +48,7 @@ Röck ön!
 
 =head1 VERSION
 
-	Acme::Umlautify v1.03 (DATETAG)
+	Acme::Umlautify v1.04 (2014/02/27)
 
 =head1 COPYRIGHT
 
@@ -71,7 +71,7 @@ reviewed here: http://opensource.org/licenses/artistic-license-2.0
 =cut
 
 package Acme::Umlautify;
-$Acme::Umlautify::VERSION = '1.03';
+$Acme::Umlautify::VERSION = '1.04';
 
 require Exporter;
 require DynaLoader;

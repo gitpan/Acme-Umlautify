@@ -2,9 +2,11 @@ Changes
 LICENSE
 Makefile.PL
 MANIFEST
-META.json
 README
 lib/Acme/Umlautify.pm
 t/0_load.t
 t/1_method.t
 t/2_oo.t
+META.yml                                 Module meta-data (added by MakeMaker)
+META.json
+Makefile.PL
