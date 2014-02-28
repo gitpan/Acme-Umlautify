@@ -1,14 +1,13 @@
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-  ABSTRACT => 'ƒdd ¸ml‰¸ts tˆ ÎvÎrˇthÔng!',
+  ABSTRACT => "ƒdd ¸ml‰¸ts tˆ ÎvÎrˇthÔng!",
   AUTHOR   => 'Phil Pollard <bennie@cpan.org>',
   LICENSE  => 'artistic_2',
   NAME     => 'Acme::Umlautify',
-  VERSION  => '1.04',
+  VERSION  => '1.05',
 
   PREREQ_PM => {
-          'perl' => '5.006',
           'Test' => '0'
         }
 ,
