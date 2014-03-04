@@ -4,9 +4,9 @@ Makefile.PL
 MANIFEST
 README
 lib/Acme/Umlautify.pm
-t/0_load.t
-t/1_method.t
-t/2_oo.t
-META.yml                                 Module meta-data (added by MakeMaker)
-META.json
-Makefile.PL
+t/0_pod.t
+t/1_load.t
+t/2_method.t
+t/3_oo.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)

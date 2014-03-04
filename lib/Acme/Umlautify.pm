@@ -1,3 +1,5 @@
+=encoding Latin-1
+
 =head1 NAME:
 
 Acme::Umlautify - Ädd ümläüts tö ëvërÿthïng!
@@ -48,7 +50,7 @@ Röck ön!
 
 =head1 VERSION
 
-	Acme::Umlautify v1.05 (2014/02/27)
+	Acme::Umlautify v1.06 (2014/03/03)
 
 =head1 COPYRIGHT
 
@@ -71,10 +73,12 @@ reviewed here: http://opensource.org/licenses/artistic-license-2.0
 =cut
 
 package Acme::Umlautify;
-$Acme::Umlautify::VERSION = '1.05';
+$Acme::Umlautify::VERSION = '1.06';
 
 require Exporter;
 require DynaLoader;
+
+use warnings;
 use strict;
 
 push our @ISA, 'Exporter';
