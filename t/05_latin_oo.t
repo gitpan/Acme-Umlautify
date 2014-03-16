@@ -1,16 +1,14 @@
 use Acme::Umlautify;
-use Test;
+use Test::Simple tests => 4;
 use strict;
-
-BEGIN { plan tests => 4 }; 
 
 my $au = new Acme::Umlautify;
 
 ok($au);
 
-ok($au->do('AEIOUYaeiouy') eq 'ÄËÏÖÜYäëïöüÿ');
+ok($au->umlautify_latin('AEIOUYaeiouy') eq 'ÄËÏÖÜYäëïöüÿ');
 
-my @array = $au->do(qw/foo bar baz/);
+my @array = $au->umlautify_latin(qw/foo bar baz/);
 my $test  = join ':', @array;
 
 ok(scalar(@array) == 3);

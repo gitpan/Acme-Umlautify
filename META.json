@@ -1,15 +1,15 @@
 {
-   "abstract" : "ƒdd ¸ml‰¸ts tˆ ÎvÎrˇthÔng!",
+   "abstract" : "Ädd ümläüts tö ëvërÿthïng",
    "author" : [
       "Phil Pollard <bennie@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.9, CPAN::Meta::Converter version 2.133380",
+   "generated_by" : "ExtUtils::MakeMaker version 6.9, CPAN::Meta::Converter version 2.140630",
    "license" : [
       "artistic_2"
    ],
    "meta-spec" : {
-      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "url" : "https://metacpan.org/pod/CPAN::Meta::Spec",
       "version" : "2"
    },
    "name" : "Acme-Umlautify",
@@ -33,14 +33,16 @@
       },
       "runtime" : {
          "requires" : {
-            "Test" : "0"
+            "Test::More" : "0",
+            "Test::Simple" : "0",
+            "perl" : "5.006001"
          }
       }
    },
    "provides" : {
       "Acme::Umlautify" : {
          "file" : "lib/Acme/Umlautify.pm",
-         "version" : "1.06"
+         "version" : "1.07"
       }
    },
    "release_status" : "stable",
@@ -54,5 +56,5 @@
          "web" : "http://github.com/bennie/perl-Acme-Umlautify"
       }
    },
-   "version" : "1.06"
+   "version" : "1.07"
 }
